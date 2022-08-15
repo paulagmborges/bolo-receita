@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#F2F2F0;
+    --cor2:#BF8C60;
+    --cor3:#A67051;
+    --cor4:#733E2E;
+    --cor5:#774332;
+    --cor6:#DE457D;
+    --cor7:#DDABC1 ;
+    --cor8:#EFEAD8 ;
+
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color:var(--cor1) ;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+main {
+    width:100% ;
+    max-width: 1400px;
+    margin: 0 auto;
+    }
+
+nav{
+    background-color:var(--cor8);
+    border-left-color: #BF8C60;
+    position: sticky;
+    top:0 ;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+   }
+
+nav > a:hover{
+       text-decoration:underline;
+       color:#DE457D;
+       font-weight: bold;
+   }
+
+
+.nav_link{
+    color:var(--cor4);
+    text-decoration: none;
+}
+
+nav > a:hover{    
+    text-decoration: underline;
+    color: var(--cor6);
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+    color:#AD864C ;
+    font-size: 40px;
+}
+
+#origem-bolo{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.origem-bolo-img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    
+    
+}
+
+.titulo-origem{
+    
+    color: #EFEAD8;
+
+}
+.origem-bolo-texto{
+    background-color: var(--cor6);
+    padding: 10px 10px 10px 20px;
+}
+
+.texto{
+    color:#EFEAD8;
+
+}
+.quote{
+    background-color: var(--cor3);
+    margin: 20px 0;
+    padding: 10px;
+    text-align: center;
+    color:var(--cor8);
+}
+
+
+.receita-bolo-cont-imag{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    max-height: 400px;
+}
+
+.receita-bolo-comp{
+    display: flex;
+    flex-flow: row nowrap;
+
+
+}
+
+#receita-bolo{
+    display: flex;
+    flex-flow: row nowrap;
+    
+
+
+}
+.titulo2{
+ 
+    color: var(--cor4);
+    font-size: 20px;
+
+}
+
+.lista-de-igredientes{
+    margin-left: 20px;
+    ;
+
+}
+.lista-titulo{
+    color: #633524;
+
+}
+
+
+.lista{
+    color: #633524;
+}
+.modo-de-preparo{
+    color: #633524;
+}
+.lista2{
+color: #633524;
+}
+
+aside{
+    background-color:var(--cor7);
+    color: #633524;
+    padding: 20px;
+    margin-left: 150px;
+    max-height: 400px;
+    
+
+}
+
+#contato{
+    text-align: center;
+    color: #633524;
+
+}
+
+.center{
+    display: flex;    
+    justify-content: center;
+    color: #633524;
+
+}
+
+
+.form{
+    display: flex;
+    flex-flow: column wrap;
+    width: 500px;
+    justify-content: center;
+    color: #633524;
+
+}
+
+
+.botoes{
+    margin-top: 10px;
+    margin-bottom: 10px ;
+
+}
+
+
+
+.rodape{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background-color:var(--cor3);
+    color:var(--cor4);
+    padding: 10px;
+    width: 100%;
+
+
+}
+
+.icone{
+    padding: 5px;
+    max-width: 30px;
+    height: auto;
+    margin-top: 5px;
+
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+    color: #A52422;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #origem-bolo{
+        flex-flow: column wrap;
+        padding: 20px;
+    }
+
+
+    .receita-bolo-completo{
+        flex-flow: column wrap;
+        padding: 20px;
+    }
+    
+    
+    
+    
+    #receita-bolo{
+        flex-flow: column wrap;
+        padding: 20px;
+    }
+
+
+    .form{
+        padding: 20px;
+
+    }
+
+
+    .rodape{
+        flex-flow: column wrap;
+        text-align: center;
+    
+    
+    }
+
+    aside{
+        margin-left: 0px;       
+    }
+    
+}
+
