@@ -1,4 +1,6 @@
 # bolo-receita
-Exercício feito no curso IGTI com HTML e CSS ,abordando flexbox e responsividade.
+Exercício feito no curso IGTI abordando flexbox e responsividade e utilizando :
+-HTML
+-CSS
 
 
